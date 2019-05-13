@@ -88,7 +88,7 @@ psql
 
 CREATE USER nominatim WITH PASSWORD 'nominatim';
 CREATE DATABASE nominatim;
-GRANR ALL PRIVILEGES ON DATABASE nominatim to nominatim;
+GRANT ALL PRIVILEGES ON DATABASE nominatim to nominatim;
 ALTER USER nominatim WITH SUPERUSER;
 \q
 ```
