@@ -95,6 +95,17 @@ ALTER USER nominatim WITH SUPERUSER;
 su ubuntu
 ```
 
+#### Add postgresql extensions, including hstore, postgis
+
+```
+sudo -s -u nominatim
+psql
+
+CREATE EXTENSION hstore;
+CREATE EXTENSION postgis;
+\q
+```
+
 #### Restart the postgresql service
 
 ```
