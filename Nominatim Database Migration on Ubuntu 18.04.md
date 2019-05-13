@@ -54,11 +54,11 @@ listen_addresses = '*'
 #shared_buffers = 128MB
 shared_buffers = 12288MB
 
-#work_men = 4MB
-work_men = 1024MB
+#work_mem = 4MB
+work_mem = 1024MB
 
-#maintenance_work_men = 64MB
-maintenance_work_men = 2048MB
+#maintenance_work_mem = 64MB
+maintenance_work_mem = 2048MB
 
 #fsync = on
 fsync = off
