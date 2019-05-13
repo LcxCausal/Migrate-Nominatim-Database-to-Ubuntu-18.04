@@ -32,7 +32,7 @@ sudo useradd -d /srv/nominatim -s /bin/bash -m nominatim
 export USERNAME=nominatim
 export USERHOME=/srv/nominatim
 
-chmod a+x $USERHOME
+sudo chmod a+x $USERHOME
 ```
 
 ### __2.2 Setting up PostgreSQL__
