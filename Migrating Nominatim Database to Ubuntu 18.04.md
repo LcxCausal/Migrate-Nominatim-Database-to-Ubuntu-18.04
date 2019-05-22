@@ -1,4 +1,4 @@
-# __Nominatim Database Migration on _`Ubuntu 18.04`___
+# __Migrating Nominatim Database to _`Ubuntu 18.04`___
 
 ## __1. Installing the Required Softwares__
 
