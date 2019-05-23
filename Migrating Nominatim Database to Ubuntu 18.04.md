@@ -115,6 +115,7 @@ sudo systemctl restart postgresql
 ### __2.3 Installing Nominatim__
 
 ```
+su nominatim
 cd $USERHOME
 wget https://nominatim.org/release/Nominatim-3.2.0.tar.bz2
 tar xf Nominatim-3.2.0.tar.bz2
