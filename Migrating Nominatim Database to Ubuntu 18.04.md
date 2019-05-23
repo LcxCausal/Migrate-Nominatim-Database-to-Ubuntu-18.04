@@ -124,6 +124,8 @@ mkdir build
 cd build
 cmake ..
 make
+
+sudo cp -r Nominatim-3.2.0 /srv/nominatim/
 ```
 
 ## __3. Restore _`Nominatim Database Backup File`___
