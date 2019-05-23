@@ -5,7 +5,6 @@
 ```
 sudo apt update -y
 sudo apt upgrade -y
-sudo apt autoremove -y
 
 sudo apt install -y build-essential cmake g++ libboost-dev libboost-system-dev \
                         libboost-filesystem-dev libexpat1-dev zlib1g-dev libxml2-dev\
