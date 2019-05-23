@@ -108,6 +108,7 @@ CREATE EXTENSION postgis;
 #### Restart the postgresql service
 
 ```
+su ubuntu
 sudo systemctl restart postgresql
 ```
 
